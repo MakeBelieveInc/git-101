@@ -19,7 +19,7 @@ Presentation materials for Git learning session
 1. Workflow - Detailed (happy path)
   1. Fork
   2. Clone
-    - or init/remote pull
+    - or init/remote-add/pull
   3. Remote add upstream
   4. Branch
   5. Make changes
