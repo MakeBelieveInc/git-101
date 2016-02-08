@@ -20,7 +20,9 @@ Presentation materials for Git learning session
   1. Fork
   2. Clone
     - or init/remote-add/pull
-  3. Remote add upstream
+  3. Remote
+    1. git remote -v
+    2. git remote --add upstream ...
   4. Branch
   5. Make changes
   6. Add
