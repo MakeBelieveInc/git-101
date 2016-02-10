@@ -77,7 +77,11 @@ Presentation materials for Git learning session
     - Show that files have changed
   9. Pull: upstream/master => local/master
 
-    `git pull upstream` or `git pull upstream/master`
+        git pull upstream
+      
+    or 
+    
+        git pull upstream/master
     
   10. Checkout: local/task123
 
@@ -86,7 +90,11 @@ Presentation materials for Git learning session
     - show that it hasn't changed while we were on local/master
   11. Rebase: local/task123 => updated local/master
 
-    `git rebase master` or `git rebase -i master`
+        git rebase master
+      
+    or 
+    
+        git rebase -i master
         
     - move local/task123 commits up to new position on local/master
     - merge in all team commits between old position and new one
