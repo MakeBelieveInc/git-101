@@ -37,7 +37,7 @@ Presentation materials for Git learning session
     - optional: squash commits with `rebase -i`
   7. Merge branch back into master
 
-**Talking point: Ease of moving back and forth through time leads to microversioning, which leads to being able to choose any point in history and promote it to UAT/Production, which leads to continuous deployment**
+**Talking point:** Ease of moving back and forth through time leads to microversioning, which leads to being able to choose any point in history and promote it to UAT/Production, which leads to continuous deployment.
 
 ## Part 3: Git in Action
 
