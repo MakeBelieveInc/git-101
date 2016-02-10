@@ -68,10 +68,12 @@ Presentation materials for Git learning session
     - Add a new file and explain `git add`
   7. Commit: local/task123 
 
-        git commit -am "[task123] I did some stuff"`
+        git commit -am "[task123] I did some stuff"
+        
   8. Checkout: local/master
 
-        git checkout master`
+        git checkout master
+        
     - Show that files have changed
   9. Pull: upstream/master => local/master
 
