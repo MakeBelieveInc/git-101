@@ -11,15 +11,16 @@ Presentation materials for Git learning session
     - Concurrent development is much simpler
       - Analogy: team arithmetic
 
-### Simplified workflow - diagrams/vocabulary only, no demo yet
-  1. Clone
-  2. Branch
+### Basic vocabulary (concepts only, no demo yet)
+  1. Pull
+  2. Push
+  3. Merge
+  4. Commit
+  5. Add
+  6. Branch
     - much simpler and more important to the workflow than with TFS
     - more on this in the next part
-  3. Commit
-  4. Pull
-  5. Merge
-  6. Push
+  8. Remote
 
 ##Part 2: Branching and the version tree
 
