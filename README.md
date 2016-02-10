@@ -93,7 +93,7 @@ Presentation materials for Git learning session
   12. Push: local => origin
     1. Option 1: push local branch to origin branch
 
-        git push task123 origin/task123
+          git push task123 origin/task123
         
     2. Option 2: merge local branch down to master, push to origin/master
   13. Pull request: origin/task123 => upstream/master
