@@ -1,7 +1,7 @@
 # Git 101
 Presentation materials for Git learning session
 
-## Conceptual Overview
+### Part 1: Conceptual Overview
 1. Distributed Version Control model
   1. No central authority; the "main repository" exists, but there's nothing special about it
   2. Each user has a copy of the entire change history
@@ -15,7 +15,7 @@ Presentation materials for Git learning session
   7. Push to origin
   8. Merge to main
  
-## Real-world operation  
+### Part 2: Real-world operation  
 1. Workflow - Detailed (happy path)
   1. Fork
   2. Clone
