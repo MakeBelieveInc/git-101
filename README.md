@@ -45,37 +45,58 @@ Presentation materials for Git learning session
   1. Show original repo on GitHub
   2. Fork: upstream/master => origin/master (origin takes the place of a Develop branch)
   3. Clone: origin/master => local/master
+
+        mv .c9 ..
+        git clone [url] .
+        mv ../.c9 .
+        
     - or init, remote add, pull
+    
   4. Remote
-    `git remote -v`
-    `git remote --add upstream [url]`
-    `git remote -v` 
+
+        git remote -v
+        git remote --add upstream [url]
+        git remote -v
+
     - Show that we now have origin and upstream remotes, explain difference
-  5. Branch: local/master => local/task123 
-    `git checkout -b task123`
+  5. Branch: local/master => local/task123
+
+        git checkout -b task123
+        
   6. Make changes: local/task123
     - Edit an existing file
     - Add a new file and explain `git add`
   7. Commit: local/task123 
-    `git commit -am "[task123] I did some stuff"`
+
+        git commit -am "[task123] I did some stuff"`
   8. Checkout: local/master
-    `git checkout master`
+
+        git checkout master`
     - Show that files have changed
   9. Pull: upstream/master => local/master
+
     `git pull upstream` or `git pull upstream/master`
+    
   10. Checkout: local/task123
-    `git checkout task123`
+
+        git checkout task123
+        
     - show that it hasn't changed while we were on local/master
   11. Rebase: local/task123 => updated local/master
+
     `git rebase master` or `git rebase -i master`
+        
     - move local/task123 commits up to new position on local/master
     - merge in all team commits between old position and new one
   12. Push: local => origin
     1. Option 1: push local branch to origin branch
-      `git push task123 origin/task123`
+
+        git push task123 origin/task123
+        
     2. Option 2: merge local branch down to master, push to origin/master
   13. Pull request: origin/task123 => upstream/master
   14. Merge on GitHub: origin/task123 => upstream/master
   15. Delete branches: local/task123, origin/task123
-    1. `git branch -d task123`
-    2. `git branch -d origin/task123`
+
+        git branch -d task123
+        git branch -d origin/task123
