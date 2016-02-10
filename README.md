@@ -3,7 +3,7 @@ Presentation materials for Git learning session
 
 ## Part 1: Conceptual Overview
 
-### What does Distributed Version Control mean?
+### What Does Distributed Version Control Mean?
   1. No central authority; the "main repository" exists, but there's nothing special about it
   2. Each user has a copy of the entire change history
   3. Delta-based rather than file-based
@@ -11,7 +11,7 @@ Presentation materials for Git learning session
     - Concurrent development is much simpler
       - Analogy: team arithmetic
 
-### Basic vocabulary (concepts only, no demo yet)
+### Basic Vocabulary (concepts only, no demo yet)
   1. Pull
   2. Push
   3. Merge
@@ -22,9 +22,9 @@ Presentation materials for Git learning session
     - more on this in the next part
   8. Remote
 
-##Part 2: Branching and the version tree
+##Part 2: Branching and the Version Tree
 
-### GitFlow-like branching strategy (whiteboard diagram)
+### GitFlow-Like Branching Strategy (whiteboard diagram)
   1. OPTIONAL: Create fork with GitHub-style origin? Save for demo?
   2. Create branch
     - new branch for each feature/task 
@@ -39,9 +39,9 @@ Presentation materials for Git learning session
 
 Ease of moving back and forth through time leads to microversioning, which leads to being able to choose any point in history and promote it to UAT/Production, which leads to continuous deployment
 
-## Part 3: Detailed workflow 
+## Part 3: Git in Action
 
-##Demo: Detailed happy-path (c9.io + GitHub)
+##Demo: Detailed Happy-Path (c9.io + GitHub)
   1. Show original repo on GitHub
   2. Fork: upstream/master => origin/master (origin takes the place of a Develop branch)
   3. Clone: origin/master => local/master
